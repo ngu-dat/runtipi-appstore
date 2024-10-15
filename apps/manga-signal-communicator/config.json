@@ -29,7 +29,7 @@
       "type": "number",
       "label": "How often does it need to run (in s)? Should be greater than 600",
       "required": false,
-      "env_variable": "INTERVAL"
+      "env_variable": "POLL_INTERVAL"
     },
     {
       "type": "text",
