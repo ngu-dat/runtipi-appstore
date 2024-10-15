@@ -51,12 +51,6 @@
     },
     {
       "type": "text",
-      "label": "Supported modes: json-rpc, native, normal - see docs",
-      "required": true,
-      "env_variable": "MODE"
-    },
-    {
-      "type": "text",
       "label": "MongoDB Host",
       "required": true,
       "env_variable": "MONGO_HOST"
