@@ -4,7 +4,7 @@
   "available": true,
   "exposable": true,
   "tipi_version": 77,
-  "version": "0.2",
+  "version": "0.3",
   "port": 9456,
   "id": "manga-signal-communicator",
   "categories": ["utilities"],
