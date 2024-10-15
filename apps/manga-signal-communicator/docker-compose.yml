@@ -28,3 +28,4 @@ services:
       - MONGO_PASSWORD = ${MONGO_PASSWORD}
     ports:
       - 9456:9456 #map docker port 8080 to host port 8080.
+    pull_policy: always
