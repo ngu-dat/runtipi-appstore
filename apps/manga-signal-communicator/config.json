@@ -56,9 +56,9 @@
       "env_variable": "MONGO_HOST"
     },
     {
-      "type": "text",
+      "type": "number",
       "label": "MongoDB Port",
-      "required": true,
+      "required": false,
       "env_variable": "MONGO_PORT"
     },
     {
