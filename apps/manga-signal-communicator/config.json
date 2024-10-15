@@ -26,9 +26,9 @@
       "env_variable": "SUWAYOMI_SERVICE"
     },
     {
-      "type": "text",
+      "type": "number",
       "label": "How often does it need to run (in s)? Should be greater than 600",
-      "required": true,
+      "required": false,
       "env_variable": "INTERVAL"
     },
     {
