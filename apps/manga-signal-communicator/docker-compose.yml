@@ -1,0 +1,18 @@
+version: "3"
+services:
+  manga-signal-communicator:
+    image: golileo/manga-signal-communcator:latest
+    environment:
+      - MODE=${MODE} #supported modes: json-rpc, native, normal
+      - SIGNAL_SERVICE=${SIGNAL_SERVICE}
+      - SUWAYOMI_SERVICE = ${SUWAYOMI_SERVICE}
+      - INTERVAL = ${INTERVAL}
+      - PHONE_NUMBER = ${PHONE_NUMBER}
+      - GROUP_ID = ${GROUP_ID}
+      - GROUP_ID_INTERNAL = ${GROUP_ID_INTERNAL}
+      - MONGO_HOST = ${MONGO_HOST}
+      - MONGO_PORT = ${MONGO_PORT}
+      - MONGO_USERNAME = ${MONGO_USERNAME}
+      - MONGO_PASSWORD = ${MONGO_PASSWORD}
+    ports:
+      - 9456:9456 #map docker port 8080 to host port 8080.

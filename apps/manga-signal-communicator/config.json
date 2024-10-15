@@ -1,0 +1,83 @@
+{
+  "$schema": "../schema.json",
+  "name": "Signal CLI API",
+  "available": true,
+  "exposable": true,
+  "tipi_version": 77,
+  "version": "0.1",
+  "port": 9456,
+  "id": "manga-signal-communicator",
+  "categories": ["utilities"],
+  "description": "Manga and stuff",
+  "short_desc": "Cool communicator for mangas",
+  "author": "ngudat",
+  "source": "http://192.168.188.40:3000/golileo/MangaSignalCommunicator",
+  "form_fields": [
+    {
+      "type": "text",
+      "label": "Signal-Service IP",
+      "required": true,
+      "env_variable": "SIGNAL_SERVICE"
+    },
+    {
+      "type": "text",
+      "label": "Suwayomi-Service IP",
+      "required": true,
+      "env_variable": "SUWAYOMI_SERVICE"
+    },
+    {
+      "type": "text",
+      "label": "How often does it need to run (in s)? Should be greater than 600",
+      "required": true,
+      "env_variable": "INTERVAL"
+    },
+    {
+      "type": "text",
+      "label": "Used phonenumber of Signal-Service",
+      "required": true,
+      "env_variable": "PHONE_NUMBER"
+    },
+    {
+      "type": "text",
+      "label": "Group ID for updates",
+      "required": true,
+      "env_variable": "GROUP_ID"
+    },
+    {
+      "type": "text",
+      "label": "Group ID internal",
+      "required": true,
+      "env_variable": "GROUP_ID_INTERNAL"
+    },
+    {
+      "type": "text",
+      "label": "Supported modes: json-rpc, native, normal - see docs",
+      "required": true,
+      "env_variable": "MODE"
+    },
+    {
+      "type": "text",
+      "label": "MongoDB Host",
+      "required": true,
+      "env_variable": "MONGO_HOST"
+    },
+    {
+      "type": "text",
+      "label": "MongoDB Port",
+      "required": true,
+      "env_variable": "MONGO_PORT"
+    },
+    {
+      "type": "text",
+      "label": "Username for MongoDB",
+      "required": true,
+      "env_variable": "MONGO_USERNAME"
+    },
+    {
+      "type": "password",
+      "label": "Password for MongoDB",
+      "required": true,
+      "env_variable": "MONGO_PASSWORD"
+    }
+  ]
+}
