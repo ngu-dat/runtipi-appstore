@@ -1,6 +1,6 @@
 {
   "$schema": "../schema.json",
-  "name": "Signal CLI API",
+  "name": "Manga Signal Communicator",
   "available": true,
   "exposable": true,
   "tipi_version": 77,
