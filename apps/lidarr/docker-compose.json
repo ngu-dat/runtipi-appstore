@@ -2,7 +2,7 @@
   "services": [
     {
       "name": "lidarr",
-      "image": "ghcr.io/linuxserver/lidarr:2.8.2",
+      "image": "ghcr.io/linuxserver/lidarr:2.9.6",
       "isMain": true,
       "internalPort": 8686,
       "environment": {
@@ -26,5 +26,6 @@
         }
       ]
     }
-  ]
+  ],
+  "$schema": "../dynamic-compose-schema.json"
 }

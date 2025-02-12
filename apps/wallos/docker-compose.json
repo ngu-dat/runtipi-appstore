@@ -2,7 +2,7 @@
   "services": [
     {
       "name": "wallos",
-      "image": "bellamy/wallos:2.42.2",
+      "image": "bellamy/wallos:2.45.2",
       "isMain": true,
       "internalPort": 80,
       "environment": {
@@ -24,5 +24,6 @@
         }
       ]
     }
-  ]
+  ],
+  "$schema": "../dynamic-compose-schema.json"
 }

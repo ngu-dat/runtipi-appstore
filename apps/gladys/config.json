@@ -1,12 +1,13 @@
 {
-  "$schema": "../schema.json",
+  "$schema": "../app-info-schema.json",
   "name": "Gladys Assistant",
   "port": 8270,
   "available": true,
   "exposable": false,
+  "dynamic_config": true,
   "id": "gladys",
-  "tipi_version": 48,
-  "version": "4.50.2",
+  "tipi_version": 51,
+  "version": "4.52.0",
   "categories": ["automation"],
   "description": "A privacy-first, open-source home assistant",
   "short_desc": "A privacy-first, open-source home assistant",
@@ -16,5 +17,5 @@
   "form_fields": [],
   "supported_architectures": ["arm64", "amd64"],
   "created_at": 1691943801422,
-  "updated_at": 1733500842000
+  "updated_at": 1738400448000
 }

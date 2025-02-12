@@ -2,7 +2,7 @@
   "services": [
     {
       "name": "halo",
-      "image": "halohub/halo:2.20.12",
+      "image": "halohub/halo:2.20.14",
       "isMain": true,
       "internalPort": 8090,
       "dependsOn": {
@@ -53,5 +53,6 @@
         "test": "pg_isready"
       }
     }
-  ]
+  ],
+  "$schema": "../dynamic-compose-schema.json"
 }
