@@ -1,0 +1,11 @@
+version: "3"
+services:
+  timesheet-app:
+    image: golileo247/timesheet-exporter:1.0.0
+    build: .
+    ports:
+      - "5537:5012"
+    restart: unless-stopped
+    volumes:
+      - /tmp:/tmp
+    pull_policy: always

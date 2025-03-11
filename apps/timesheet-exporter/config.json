@@ -1,0 +1,17 @@
+{
+  "$schema": "../schema.json",
+  "name": "Timesheer Exporter",
+  "available": true,
+  "exposable": false,
+  "tipi_version": 77,
+  "version": "1.0.0",
+  "port": 5537,
+  "id": "timesheet-exporter",
+  "categories": ["utilities"],
+  "description": "Business and stuff",
+  "short_desc": "Makes your life easier.",
+  "author": "ngudat",
+  "source": "https://github.com/ngu-dat/TimesheetExporter",
+  "form_fields": [
+  ]
+}
