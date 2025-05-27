@@ -9,6 +9,7 @@
   "id": "manga-signal-communicator",
   "categories": ["utilities"],
   "description": "Manga and stuff",
+  "dynamic_config": true,
   "short_desc": "Cool communicator for mangas",
   "author": "ngudat",
   "source": "http://192.168.188.40:3000/golileo/MangaSignalCommunicator",
