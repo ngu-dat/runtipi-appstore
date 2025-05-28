@@ -10,6 +10,7 @@
   "categories": ["utilities"],
   "description": "Signal Docker.",
   "short_desc": "Communicate via Signal with a API!",
+  "dynamic_config": true,
   "author": "bbernhard",
   "source": "https://github.com/bbernhard/signal-cli-rest-api",
   "form_fields": [
