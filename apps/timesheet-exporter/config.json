@@ -6,6 +6,7 @@
   "tipi_version": 77,
   "version": "1.0.0",
   "port": 5537,
+  "dynamic_config": true,
   "id": "timesheet-exporter",
   "categories": ["utilities"],
   "description": "Business and stuff",
