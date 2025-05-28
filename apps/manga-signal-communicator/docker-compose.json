@@ -1,0 +1,12 @@
+{
+  "$schema": "../dynamic-compose-schema.json",
+  "services": [
+    {
+      "name": "manga-signal-communicator",
+      "isMain": true,
+      "internalPort": 8080,
+      "tty": true,
+      "stdinOpen": true
+    }
+  ]
+}
